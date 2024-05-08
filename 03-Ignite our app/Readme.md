@@ -43,15 +43,24 @@ npm install -D parcel
 `-D` is used for development and as a development dependency.
 
 - Parcel Commands :
+
   - For development build:
+
   ```
   npx parcel <entry_point>
   ```
+
   - For production build :
+
   ```
   npx parcel build <entry_point>
   ```
-  
+
+  - to run the file
+
+  ```
+  npx parcel index.html
+  ```
 
 ## Q: Why is `.parcel-cache` folder?
 
